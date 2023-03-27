@@ -1,0 +1,9 @@
+.quiz {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+}

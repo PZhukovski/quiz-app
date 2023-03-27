@@ -1,0 +1,5 @@
+.app {
+    padding: var(--gap-8xl) 0;
+    width: 800px;
+    margin: 0 auto;
+}
