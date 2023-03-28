@@ -1,8 +1,11 @@
 {
   "name": "lesson_9",
   "version": "0.1.0",
+  "homepage": "https://PZhukovski.github.io/quiz-app",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -27,7 +30,8 @@
     "@types/jest": "^29.0.0",
     "@types/lodash": "^4.14.191",
     "@types/react": "^18.0.18",
-    "@types/react-dom": "^18.0.6"
+    "@types/react-dom": "^18.0.6",
+    "gh-pages": "^5.0.0"
   },
   "eslintConfig": {
     "extends": [
